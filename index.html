@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio </title>
+    <link rel="shortcut icon" type="image/png" href="icon.png">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <style>
@@ -148,7 +149,7 @@
 
     h1 {
         margin-left: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         font-size: 32px;
         border: solid;
         width: 200px;
@@ -176,8 +177,13 @@
     .skill img {
         width: 373px;
         height: 280px;
+        border-style: solid;
     }
-
+    .skill video{
+        width: 373px;
+        height: 280px;
+        border-style: solid;
+    }
     .skill-items p {
         font-size: 20px;
     }
@@ -188,12 +194,12 @@
         grid-template-rows: repeat(2, auto);
 
     }
-
     .end {
-        font-size: 70px;
-        text-align: center;
-        margin: 30px;
-    }
+            font-size: 30px;
+            text-align: center;
+            margin: 30px;
+            color: grey;
+        }
 </style>
 
 <body>
@@ -201,10 +207,10 @@
         <div class="me">
             <nav class="navitation">
                 <ul class="list">
-                    <li class="items" style=" background-color: rgb(208, 235, 250);"><a href="https://aquarius5298.github.io/BTVN8/"
-                            class="aboutme">
-                            GIỚI THIỆU </a></li>
-                    <li class="items"><a href="https://aquarius5298.github.io/BTVN9/" class="aboutme"> BLOG </a></li>
+                    <a href="https://aquarius5298.github.io/BTVN8/"
+                    class="aboutme"> <li class="items" style=" background-color: rgb(208, 235, 250);">
+                            GIỚI THIỆU </li></a>
+                            <a href="https://aquarius5298.github.io/BTVN9/" class="aboutme">   <li class="items"> BLOG </li></a>
                 </ul>
             </nav>
             <p class="header">Img Next Page</p>
@@ -261,32 +267,27 @@
         </div>
         <h1>KỸ NĂNG</h1>
         <div class="skill">
+            
 
             <div class="skill-items"><img
                     src="codedao.jpg"
                     alt="">
                 <p>Code dạo</p>
             </div>
-            <div class="skill-items"><a href=https://photos.app.goo.gl/c3822A9g7jifjFLe9><img
-                        src="boxing.jpg"
-                        alt=""></a>
+            <div class="skill-items"><video  controls><source src="boxing.mp4" type="video/mp4"/></video>
                 <p>Boxing</p>
             </div>
-            <div class="skill-items"><a href="https://photos.app.goo.gl/ANkD7aippn4m1xHy5"><img
-                        src="Đua xe.jpg"
-                        alt=""></a>
+            <div class="skill-items"><video  controls><source src="Duaxe.mp4" type="video/mp4"/></video>
 
                 <p>Đua xe bốc đầu</p>
             </div>
-            <div class="skill-items"><a href="https://photos.app.goo.gl/LaK9e5pNpUa4rAsK9"><img
-                        src="Screenshot (40).png"
-                        alt=""></a>
+            <div class="skill-items"><video  controls><source src="lol2.webm" type="video/mp4"/></video>
                 <p>Game Nhái Liên Quân</p>
             </div>
         </div>
     </section>
     <div class="end">
-        <a href="btvn.html"> <i class="fas fa-home"></i></a>
+        <p>TELL ME YOUR STORY</p>
     </div>
 </body>
 
